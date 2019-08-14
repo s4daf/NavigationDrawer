@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="#64b5f6"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTask3">
+
+
+    <EditText
+        android:id="@+id/EdtName"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="please enter your name"
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/EdtFamily"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="please enter your family"
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:inputType="phone"
+        android:id="@+id/EdtAge"
+        android:maxLength="2"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="please enter your age"
+        android:layout_marginTop="17dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <EditText
+        android:id="@+id/EdtPhone"
+        android:textColor="#000"
+        android:layout_marginTop="17dp"
+        android:textColorHint="#000"
+        android:maxLength="11"
+        android:inputType="phone"
+        android:hint="please enter your phone number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+    <EditText
+        android:id="@+id/EdtAdress"
+        android:textColor="#000"
+        android:textColorHint="#000"
+        android:hint="please enter your address"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:id="@+id/BtnReview"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="60dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="review" />
+
+<TextView
+    android:id="@+id/txtWelcom"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</LinearLayout>

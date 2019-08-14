@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityTask2">
+
+
+
+    <EditText
+        android:id="@+id/EdtNumber"
+        android:layout_margin="17dp"
+        android:maxLength="11"
+        android:text="09"
+        android:inputType="phone"
+        android:hint="please enter your phone number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+        <ImageButton
+            android:id="@+id/BtnCall"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="#0000"
+            android:scaleType="centerCrop"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/s65"/>
+
+
+
+
+
+</LinearLayout>
